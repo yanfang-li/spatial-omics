@@ -2,48 +2,113 @@
 
 ## Sequencing-based spatial transcriptomics
 
-| Technologies   |Year of Publish | Resolution     |  Center2Center |  Genes Profiled | Covered Area  | 
-|----------------|----------------|----------------|----------------|-----------------|---------------|
-| **ST**         | 2016           | ~100 μm        | ~200 μm        | WT              | 6.2mm x 6.6mm |
-| **10x Visium** | 2019           | ~55 μm         | ~100 μm        | WT              | 6.5mm x 6.5mm |
-| **Slide-seq**  | 2019           | ~10 μm         |                | WT              | 10mm x 10mm   |
-| **Slide-seqV2**| 2020           | ~10 μm         |                | WT              | 10mm x 10mm   |
-| **DBiT-seq**   | 2020           | ~10–50 μm      |                | WT              |               |
-| **HDST**       | 2020           | ~2 μm          |                | WT              |               |
-| **Seq-Scope**  | 2021           | <1 μm          | 0.5-0.8 μm     | WT              |               |
-| **PIXEL-seq**  |                |                |                |                 |               |
-| **Stereo-seq** | 2021           | 220 nm         | ~500 nm        | WT              |132mm x 132mm  |
-| **Visium HD**  |                | 2 μm           |                | WT              | 6.5mm x 6.5mm |
-
-<table>
-  <!-- 表格题目 -->
-<tr> 
-  <th>Technologies</th>
-  <th>Year of Publish</th>
-  <th>Resolution</th>
-  <th>Center2Center</th>
-  <th>Genes Profiled</th>
-  <th>Covered Area</th>
-</tr>
-  <!-- ST平台介绍和数据 -->
-<tr> 
-  <td> **ST** </td>
-  <td> 2016 </td>
-  <td> ~100 μm </td>
-  <td> ~200 μm </td>
-  <td> WT </td>
-  <td> 6.2mm x 6.6mm </td>
-</tr>
-<!-- <tr>
-  <td rowspan="2">小明</td>
-  <td>数学</td>
-  <td>90</td>
-</tr>
-<tr>
-  <td>语文</td>
-  <td>88</td>
-</tr> -->
-</table>
+<table><thead>
+  <tr>
+    <th></th>
+    <th>Technologies</th>
+    <th>Year of Publish</th>
+    <th>Resolution</th>
+    <th>Center2Center</th>
+    <th>Genes Profiled</th>
+    <th>Spots</th>
+    <th>Covered Area</th>
+    <th>Way</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="2">multi-cellular resolution</td>
+    <td>ST</td>
+    <td>2016</td>
+    <td>100 μm</td>
+    <td>200 μm</td>
+    <td>WT</td>
+    <td>~1,000</td>
+    <td>6.2mm x 6.6mm</td>
+    <td>regular grid of spots</td>
+  </tr>
+  <tr>
+    <td>10x Visium</td>
+    <td>2019</td>
+    <td>55 μm</td>
+    <td>100 μm</td>
+    <td>WT</td>
+    <td>~5,000</td>
+    <td>6.5mm x 6.5mm or 11mm x 11mm</td>
+    <td>regular grid of spots</td>
+  </tr>
+  <tr>
+    <td rowspan="3">near single-cell resolution</td>
+    <td>Slide-seq/V2</td>
+    <td>2019</td>
+    <td>10 μm</td>
+    <td>-</td>
+    <td>WT</td>
+    <td>~50,000</td>
+    <td>10mm x 10mm</td>
+    <td>randomly distributed beads</td>
+  </tr>
+  <tr>
+    <td>HDST</td>
+    <td>2020</td>
+    <td>2 μm</td>
+    <td>2 μm</td>
+    <td>WT</td>
+    <td></td>
+    <td></td>
+    <td>regular array bead</td>
+  </tr>
+  <tr>
+    <td>DBiT-seq</td>
+    <td>2020</td>
+    <td>10,20,50 μm</td>
+    <td>20,50,100 μm</td>
+    <td>WT</td>
+    <td></td>
+    <td>1mm x 1mm</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4">SubCelluar</td>
+    <td>Seq-Scope</td>
+    <td>2021</td>
+    <td>&lt;1 μm</td>
+    <td>~0.6 μm</td>
+    <td>WT</td>
+    <td></td>
+    <td>0.8 mm × 1 mm</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Pixel-Seq</td>
+    <td></td>
+    <td>~1 μm</td>
+    <td>~1 μm</td>
+    <td>WT</td>
+    <td></td>
+    <td>75 mm × 25 mm</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Stereo-seq</td>
+    <td>2021</td>
+    <td>0.22 μm</td>
+    <td>0.5-0.715 μm</td>
+    <td>WT</td>
+    <td></td>
+    <td>132mm x 132mm</td>
+    <td>ultra-dense regular nanobead grid</td>
+  </tr>
+  <tr>
+    <td>Visium HD</td>
+    <td>2025</td>
+    <td>2 μm<br>binned to 8 µm <br>binned to 16 µm</td>
+    <td>0 μm</td>
+    <td>WT</td>
+    <td>~11 million</td>
+    <td>6.5mm x 6.5mm</td>
+    <td>continuous lawn of uniquely barcoded 2 × 2-µm squares</td>
+  </tr>
+</tbody></table>
 
 
 ## Imaging-based spatial transcriptomics
